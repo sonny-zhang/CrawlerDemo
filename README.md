@@ -2,8 +2,9 @@
 爬虫技术的各种demo
 
 ## douban
+资料：https://www.imooc.com/video/17523  
 这个demo是采用scrapy技术，对豆瓣top250的movie信息进行爬取，是作者根据
-https://www.imooc.com/video/17523课程的实践，如果做过这个demo，就不要再看这个代码了  
+课程的实践，如果做过这个demo，就不要再看这个代码了  
 
 >实现内容：  
 
