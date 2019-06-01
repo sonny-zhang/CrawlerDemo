@@ -27,4 +27,5 @@
 ## jobbole
 > 实现内容:
 
-- [x] 包含css选择器和xpath选择器的使用  
+- [x] 有css选择器和xpath选择器的使用  
+- [x] 编写两个parse：一个是对list解析，一个是对detail解析
