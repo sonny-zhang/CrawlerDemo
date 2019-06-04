@@ -6,6 +6,8 @@
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 from scrapy.pipelines.images import ImagesPipeline
 
+from scrapy import exporters
+
 
 class JobbolePipeline(object):
     def process_item(self, item, spider):
