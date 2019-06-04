@@ -66,7 +66,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'jobbole.pipelines.JobbolePipeline': 300,
+    'jobbole.pipelines.JsonExporterPipeline': 2,    # 保存到json文件
     # 'scrapy.pipelines.images.ImagesPipeline': 1,    # 下载图片
     'jobbole.pipelines.JobboleImagePipline': 1,
 }
